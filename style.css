@@ -1,0 +1,43 @@
+@charset "UTF-08";
+
+@font-face {
+    font-family: fontisland;
+    src: url('Fonts/pcap\ terminal.otf') format('opentype');
+    font-weight: normal}
+body{
+    background-color: #292713;
+}
+h1{
+    font-family: fontisland, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 400px;
+    color: rgb(255, 255, 13);
+}
+nav{
+    background-color: #756f31;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+nav > a:hover{
+    background-color: #756f31
+    
+    ;
+    color: #292713;
+}
+div.video > iframe{
+position: absolute;
+top: 5%;
+width: 5%;
+height: 90;
+
+}
+
+p{
+    color: aliceblue;
+}
